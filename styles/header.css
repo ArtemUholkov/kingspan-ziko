@@ -162,11 +162,11 @@
     position: absolute;
     right: 100%;
     width: 100%;
-    height: calc(100vh - 112px);
+    height: calc(100vh - 90px);
     z-index: 50;
     display: none;
     overflow: hidden;
-    top: 112px;
+    top: 90px;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.7);
   }
