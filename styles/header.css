@@ -3,11 +3,10 @@
   align-items: center;
   height: 90px;
   z-index: 100;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.4;
 }
 
 .header_container {
