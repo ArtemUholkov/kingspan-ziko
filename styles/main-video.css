@@ -55,15 +55,15 @@
     top: -100%;
   }
 }
-@media (max-aspect-ratio: 16/9) {
+/* @media (max-aspect-ratio: 16/9) {
   .video-foreground {
     width: 300%;
     left: -100%;
   }
-}
+} */
 @media all and (max-width: 600px) {
   .vid-info {
-    width: 50%;
+    width: 100%;
     padding: 0.5rem;
   }
   .vid-info h1 {
@@ -91,11 +91,11 @@
 .text-content {
   position: absolute;
   z-index: 5;
-  top: 40%;
+  top: 45%;
   left: 50%;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 50px;
   text-align: center;
   margin-right: 15px;
 }
