@@ -1,3 +1,7 @@
+.main_video {
+  overflow: hidden;
+  position: relative;
+}
 * {
   box-sizing: border-box;
 }
@@ -97,7 +101,7 @@
 .text-content {
   position: absolute;
   z-index: 5;
-  top: 45%;
+  top: 40%;
   left: 50%;
   display: flex;
   flex-direction: column;
