@@ -13,10 +13,10 @@
 .video-foreground,
 .video-background iframe {
   position: absolute;
-  top: 90px;
+  top: 0;
   left: 0;
   width: 100%;
-  height: calc(100% - 90px);
+  height: 100%;
   pointer-events: none;
 }
 #vidtop-content {
@@ -55,12 +55,14 @@
     top: -100%;
   }
 }
-/* @media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 16/9) {
   .video-foreground {
     width: 300%;
     left: -100%;
+
+    height: 100%;
   }
-} */
+}
 @media all and (max-width: 600px) {
   .vid-info {
     width: 100%;
@@ -68,6 +70,10 @@
   }
   .vid-info h1 {
     margin-bottom: 0.2rem;
+  }
+  .video-foreground {
+    height: 120%;
+    top: -150px;
   }
 }
 @media all and (max-width: 500px) {
@@ -77,15 +83,15 @@
 }
 .filter {
   position: relative;
-  top: 90px;
+  top: 0px;
   width: 100vw;
-  height: calc(100vh - 90px);
+  height: calc(100vh);
   background-color: rgba(0, 0, 0, 0.8);
 }
 .kingspan_logo {
   position: absolute;
   top: 120px;
-  left: 30px;
+  right: 30px;
   z-index: 5;
 }
 .text-content {
@@ -188,5 +194,10 @@ h1 {
   }
   .ziko {
     font-size: 28px;
+  }
+}
+@media (max-height: 570px) {
+  .kingspan_logo {
+    display: none;
   }
 }
