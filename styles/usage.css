@@ -61,3 +61,42 @@ h2 {
   font-size: 52px;
   transition: all 0.15s;
 }
+#slow {
+  animation: blink 1500ms linear infinite;
+  -moz-animation: blink 1500ms linear infinite;
+  -webkit-animation: blink 1500ms linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
