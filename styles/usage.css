@@ -8,11 +8,29 @@
 .title_wrapper {
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.decoration_stripe {
+  height: 2px;
+  width: 30%;
+  background-color: #1b3647;
+  margin: 0px 10px 0px 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h2 {
-  font-size: 30px;
+  font-size: 34px;
   color: #1b3647;
-  margin-bottom: 50px;
+
+  text-align: center;
+  align-self: center;
 }
 .usage_content_wrapper {
   width: 95%;
@@ -79,34 +97,34 @@ h2 {
 }
 @keyframes blink {
   0% {
-    opacity: 0.85;
+    opacity: 0.6;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0.85;
+    opacity: 0.6;
   }
 }
 @-moz-keyframes blink {
   0% {
-    opacity: 0.85;
+    opacity: 0.6;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0.85;
+    opacity: 0.6;
   }
 }
 @-webkit-keyframes blink {
   0% {
-    opacity: 0.85;
+    opacity: 0.6;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0.85;
+    opacity: 0.6;
   }
 }
