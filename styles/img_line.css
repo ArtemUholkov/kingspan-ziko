@@ -1,0 +1,9 @@
+.img_line {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+.img_line_item {
+  height: 300px;
+}
