@@ -1,0 +1,69 @@
+.differences {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url('../img/differences/bgimg.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  /* TEMPORARY */
+
+  /* TEMPORARY */
+}
+.differences-filter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.differences_title {
+  color: #4dbaff;
+  z-index: 11;
+}
+.differences_decoration_stripe {
+  background-color: #4dbaff;
+  z-index: 11;
+}
+.diffences_benefits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.benefit {
+  width: 45%;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #4dbaff;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 11;
+}
+.benefit_text {
+  color: #4dbaff;
+}
+@media (max-width: 760px) {
+  .differences_title {
+    font-size: 24px;
+  }
+  .benefit {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media (max-width: 550px) {
+  .differences_title {
+    white-space: initial;
+  }
+}
