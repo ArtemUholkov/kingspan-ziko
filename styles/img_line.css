@@ -3,7 +3,9 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 0;
+  overflow: hidden;
 }
 .img_line_item {
   height: 300px;
+  object-fit: cover;
 }
