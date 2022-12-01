@@ -35,6 +35,7 @@ h2 {
   gap: 10px;
   background-color: #1b3647;
   transition: all 0.15s;
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 .first_row,
@@ -66,7 +67,11 @@ h2 {
   -moz-animation: blink 1500ms linear infinite;
   -webkit-animation: blink 1500ms linear infinite;
 }
-
+#medium {
+  animation: blink 3500ms linear infinite;
+  -moz-animation: blink 3500ms linear infinite;
+  -webkit-animation: blink 3500ms linear infinite;
+}
 @keyframes blink {
   0% {
     opacity: 0.85;
