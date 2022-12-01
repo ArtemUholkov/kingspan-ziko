@@ -130,3 +130,17 @@ h2 {
     opacity: 0.75;
   }
 }
+@media (max-width: 448px) {
+  .usage_content_item {
+    height: 150px;
+    width: 150px;
+  }
+  .icons {
+    font-size: 35px;
+    color: white;
+  }
+  .usage_content_item_text {
+    font-size: 12px;
+    color: white;
+  }
+}
