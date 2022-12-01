@@ -46,7 +46,7 @@ h2 {
 .usage_content_item {
   height: 200px;
   width: 200px;
-
+  text-decoration: none;
   border-radius: 50%;
   border: 2px solid rgb(134, 132, 132);
   display: flex;
