@@ -89,7 +89,7 @@
   margin: 0 auto;
   position: relative;
   top: 0px;
-  width: 100vw;
+  width: 100%;
   height: calc(100vh);
   background-color: rgba(0, 0, 0, 0.7);
 }

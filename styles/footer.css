@@ -1,0 +1,40 @@
+footer {
+  width: 100%;
+  background-color: rgb(142, 213, 223);
+  overflow: hidden;
+  padding-top: 50px;
+}
+.footer_content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.logos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_pages {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer_nav_elem {
+  text-decoration: none;
+  color: #1b3647;
+}
+.phone-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.copyright {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  color: #1b3647;
+}
