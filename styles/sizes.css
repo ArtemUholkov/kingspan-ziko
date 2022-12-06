@@ -19,6 +19,7 @@
 }
 .carousel-item {
   max-height: 500px;
+  overflow: hidden;
 }
 .sizes_img_in_car {
   display: block;
