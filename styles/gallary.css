@@ -11,45 +11,9 @@
 }
 .swiper {
   width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-body {
-  background: #000;
-  color: #000;
-}
-
-.swiper {
-  width: 100%;
   max-width: 1240px;
-  max-height: 500px;
+  height: 400px;
+  margin-bottom: 20px;
 }
 .swiper-slide img {
   display: block;
@@ -87,4 +51,34 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.from-left {
+  transform: translateX(-50%);
+}
+
+.from-right {
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: transform 400ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+}
+.gallary_img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 500px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 500px;
 }
