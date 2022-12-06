@@ -206,3 +206,75 @@ h1 {
     display: none;
   }
 }
+.priorities_wrapper {
+  position: absolute;
+  top: 35%;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  left: 300px;
+}
+.priority {
+  height: 60px;
+  width: 500px;
+  border: 0.5px dashed gold;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4dbaff;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  z-index: 99;
+  padding: 10px;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* .prior1 {
+  top: 100px;
+  left: 200px;
+}
+.prior2 {
+  top: 700px;
+  left: 200px;
+}
+.prior3 {
+  top: 400px;
+  left: 350px;
+}
+.prior4 {
+  top: 250px;
+  left: 600px;
+}
+.prior5 {
+  top: 700px;
+  left: 700px;
+} */
+.prior_icon {
+  font-size: 35px;
+  color: gold;
+}
+@media (max-width: 1640px) {
+  .priorities_wrapper {
+    left: 100px;
+  }
+}
+@media (max-width: 1250px) {
+  .priority {
+    width: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .priorities_wrapper {
+    left: 110px;
+    top: 120px;
+    gap: 5px;
+  }
+  .priority {
+    width: 500px;
+    height: 50px;
+  }
+}
