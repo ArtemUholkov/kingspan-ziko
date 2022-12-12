@@ -90,3 +90,8 @@
     height: 300px;
   }
 }
+.main_video_img {
+  max-width: 400px;
+  max-height: 400px;
+  width: 100%;
+}
