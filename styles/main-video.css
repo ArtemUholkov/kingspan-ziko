@@ -291,3 +291,8 @@ h1 {
     display: none;
   }
 }
+.swiper-bottom {
+  width: 80%;
+}
+.next {
+}
