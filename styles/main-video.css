@@ -232,7 +232,7 @@ h1 {
 .text-content {
   position: absolute;
   z-index: 5;
-  top: 40%;
+  top: calc(40% - 40px);
   right: 10%;
   display: flex;
   flex-direction: column;
@@ -246,12 +246,13 @@ h1 {
   width: 100%;
 }
 .innovation {
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 33px;
+  line-height: 39px;
   color: #00b1e9;
   font-weight: 700;
 
   text-align: center;
+  margin-bottom: 40px;
 }
 @media (max-width: 1324px) {
   h1 {
@@ -305,9 +306,6 @@ h1 {
   }
 }
 @media (max-width: 1310px) {
-  .right_items {
-    flex-direction: column-reverse;
-  }
   .text-content {
     top: 30%;
   }
@@ -336,6 +334,9 @@ h1 {
     margin: 0 auto;
   }
 }
+.spaceee {
+  white-space: nowrap;
+}
 .priority {
   height: 60px;
   width: 500px;
@@ -353,7 +354,9 @@ h1 {
   flex-direction: row;
   gap: 15px;
 }
-
+.count {
+  white-space: nowrap;
+}
 /* .prior1 {
   top: 100px;
   left: 200px;
