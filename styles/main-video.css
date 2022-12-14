@@ -459,3 +459,12 @@ h1 {
     gap: 5px;
   }
 }
+.dark_fill {
+  background-color: #004089;
+}
+.light_fill {
+  background-color: #00b1e9;
+}
+.medium_fill {
+  background-color: #0079b9;
+}
