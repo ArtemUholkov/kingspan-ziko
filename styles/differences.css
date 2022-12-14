@@ -15,16 +15,16 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.75);
   z-index: 10;
 }
 .differences_title {
-  color: #4dbaff;
+  color: white;
   z-index: 11;
 }
 
 .differences_decoration_stripe {
-  background-color: #4dbaff;
+  background-color: white;
   z-index: 11;
 }
 .diffences_benefits {
@@ -52,7 +52,7 @@
   z-index: 11;
 }
 .benefit_text {
-  color: #4dbaff;
+  color: white;
   width: 100%;
 }
 
