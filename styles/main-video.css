@@ -172,26 +172,6 @@ h1 {
   justify-content: center;
 }
 
-@media (max-width: 506px) {
-  .main_contacts_wrapper {
-    flex-direction: column;
-  }
-  .header_button {
-    width: 100%;
-  }
-  .phone_call {
-    width: 100%;
-  }
-  .text-content {
-    top: 60%;
-  }
-  h1 {
-    font-size: 22px;
-  }
-  .ziko {
-    font-size: 22px;
-  }
-}
 @media (max-height: 570px) {
   .kingspan_logo {
     display: none;
@@ -332,6 +312,26 @@ h1 {
   .img_appear {
     display: block;
     margin: 0 auto;
+  }
+}
+@media (max-width: 506px) {
+  .main_contacts_wrapper {
+    flex-direction: column;
+  }
+  .header_button {
+    width: 100%;
+  }
+  .phone_call {
+    width: 100%;
+  }
+  .text-content {
+    top: 32%;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .ziko {
+    font-size: 22px;
   }
 }
 .spaceee {
